@@ -1,0 +1,7 @@
+p, h1 {
+    font: 30px MiNuevaLetra;
+    }
+
+    @font-face { 
+    font-family: "MiNuevaLetra"; src: url("intradistaff.regular.ttf"); 
+    } 
