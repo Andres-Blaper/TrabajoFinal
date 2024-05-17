@@ -1,7 +1,51 @@
-p, h1 {
-    font: 30px MiNuevaLetra;
-    }
+h1{
+    font: 50px MiNuevaLetra;
+    color: white;
+}
 
-    @font-face { 
-    font-family: "MiNuevaLetra"; src: url("intradistaff.regular.ttf"); 
-    } 
+@font-face {
+    font-family: "MiNuevaLetra"; 
+    src: url("Lordish-Regular.ttf");
+}
+   
+header{
+    max-width: 1000px;
+}
+
+body{
+    background-color: black;
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    max-width: 1000px;
+}
+    
+p.letra, .subtitulo{
+    font: 18px MiNuevaLetra;
+    color: white;
+}
+    
+figcaption{
+    font-size: 10px;
+    color: white;
+}
+
+.icono{
+    width: 40px;
+}
+
+.Copyright{
+    margin-bottom: 0px;
+    margin-top: 8px;
+    color: gray;
+}
+
+.enlcop, .enlem{
+    text-decoration: none;
+    color: gray;
+}
+
+.popover {
+    background-color: gray; /* Cambia el color de fondo a rojo */
+    color: black; /* Cambia el color del texto a blanco */
+}

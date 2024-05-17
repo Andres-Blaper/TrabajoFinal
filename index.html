@@ -3,79 +3,73 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estilos.css">
-
+    <link rel="icon" href="ale/1 CONDENA - MANITO (1).png" type="img/x-icon">
+    <!-- Todo esto son enlaces y scripts para enlazar bootstrap y popover -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>IMPIUS</title>
 </head>
 
 <body>
     <div class="contenedor mx-5">
         <div class="text-center my-5">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
-                <div class="container-fluid">
-                    <a href="#" class="navbar-brand">Barra de navegacion</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-                        aria-controls="menu" aria-expanded="false" aria-label="Mostrar / Ocultar Menu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="menu">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                            <li class="nav-item dropup">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false" id="dropdown-menu">
-                                    Categorias
-                                </a>
-
-                                <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
-                                    <li><a href="#" class="dropdown-item">Elemento 1</a></li>
-                                    <li><a href="#" class="dropdown-item">Elemento 2</a></li>
-                                    <li><a href="#" class="dropdown-item">Elemento 3</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
-                        </ul>
-
-                        <form action="" class="d-flex">
-                            <input type="search" class="form-control me-2" placeholder="Buscar" aria-label="Buscar">
-                            <button class="btn btn-outline-light" type="button">Buscar</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-
-            <h1 class="titulo strong">LEBITH</h1>
-            <p class="subtitulo lead"> IMPIUS PROYECT</p>
+            <div class="container mx-5">
+                <header>
+                    <div class="text-center my-5">
+                        <h1 class="titulo" id="Inicio">LEBITH</h1>
+                        <p class="subtitulo lead">IMPIUS PROYECT</p>
+                </header>
+            </div>
             <div class="row mt-5">
-                <div class="col">
+                <div class="col-4 mb-5 mx-4">
                     <div class="carousel slide carousel-fade" id="mi-carousel" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="img-fluid" src="img/carousel1.jpg" alt="">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
+                                <img class="img-fluid img-thumbnail" src="ale/PORTADA-CONDENA.png" alt="">
+                                <figcaption class="text-center">Portada del Álbum Condena</figcaption>
                                 <div class="carousel-caption">
-                                    <p>Imagenes aportadas por Alejandro</p>
+                                    <p class="letra">Imágenes aportadas por Alejandro</p>
                                 </div>
-                                <img class="img-fluid" src="img/carousel2.jpg" alt="">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <div class="carousel-caption">
+                                    <p class="letra">Imágenes aportadas por Alejandro</p>
+                                </div>
+                                <img class="img-fluid img-thumbnail" src="ale/PORTADA-ELMARDELDESEO.png" alt="">
+                                <figcaption class="text-center">Portada del Álbum El Mar del Deseo</figcaption>
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid" src="img/carousel3.jpg" alt="">
+                                <img class="img-fluid img-thumbnail" src="ale/portada.JPG" alt="">
+                                <figcaption class="text-center">Portada del Álbum Amnesia Estival</figcaption>
+                                <div class="carousel-caption">
+                                    <p class="letra">Imágenes aportadas por Alejandro</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid img-thumbnail" src="ale/PORTADA-FUSTIGAS.png" alt="">
+                                <figcaption class="text-center">Portada del Álbum Amnesia Estival</figcaption>
                             </div>
                         </div>
 
+                        <!-- Controles -->
                         <button class="carousel-control-prev" type="button" data-bs-target="#mi-carousel"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
                         </button>
+
                         <button class="carousel-control-next" type="button" data-bs-target="#mi-carousel"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Siguiente</span>
                         </button>
+
+                        <!-- Indicadores -->
                         <div class="carousel-indicators">
                             <button type="button" class="active" data-bs-target="#mi-carousel" data-bs-slide-to="0"
                                 aria-label="Slide 1"></button>
@@ -83,14 +77,58 @@
                                 aria-label="Slide 2"></button>
                             <button type="button" class="" data-bs-target="#mi-carousel" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
+                            <button type="button" class="" data-bs-target="#mi-carousel" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
                         </div>
                     </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div class="row space-between">
+                    <div class="texto col-8">
+
+                        <button type="button" class="popover btn btn-lg btn-danger mx-5" data-toggle="popover"
+                            title="impius.proyect@gmail.com" data-content="">Contacta con nosotros
+                        </button>
+                    </div>
+                    <div class="botones col-4" id="Botones">
+                        <!-- <img src="ale/youtube.png" height="40px" alt="Imagen" usemap="#map">
+                        <map name="map">
+                            <area shape="default" alt="Instagram" coords="0, 0, 40, 40"
+                                href="https://www.youtube.com/channel/UCpTdjL86bOmtvWpLHqm-8_A">
+                        </map>
+
+                        <img src="ale/instagram(1).png" height="40px" alt="Imagen" usemap="#map">
+                        <map name="map">
+                            <area shape="default" alt="Instagram" coords="0, 0, 40, 40"
+                                href="https://www.instagram.com/lebizh_impius/">
+                        </map>
+
+                        <img src="ale/spotify.png" height="40px" alt="Imagen" usemap="#map">
+                        <map name="map">
+                            <area shape="default" alt="Instagram" coords="0, 0, 40, 40"
+                                href="https://open.spotify.com/intl-es/artist/6N3HMN68Kj6Xucblo9ByWw">
+                        </map> -->
+                        <a class="" href="https://www.youtube.com/channel/UCpTdjL86bOmtvWpLHqm-8_A"><img
+                                class="img-fluid icono" src="ale/youtube.png" alt=""></a>
+                        <a class="" href="https://www.instagram.com/lebizh_impius/"><img class="img-fluid icono"
+                                src="ale/instagram(1).png" alt=""></a>
+                        <a class="" href="https://open.spotify.com/intl-es/artist/6N3HMN68Kj6Xucblo9ByWw"><img
+                                class="img-fluid icono" src="ale/spotify.png" alt=""></a>
+                    </div>
+                    <p class="Copyright">Copyright © 2020-2024 Impius S.P.A Todos los derechos reservados - <a
+                            class="enlcop link-light" href="https://www.copyright.gov/espanol/"><em>Más
+                                Información</em></a>
+                    </p>
                 </div>
             </div>
-        </div>
-    </div>
-
 </body>
 <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
 
 </html>
